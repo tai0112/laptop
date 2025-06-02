@@ -1,0 +1,66 @@
+.login {
+  font-weight: 500;
+  &__button {
+    font-weight: 600;
+    text-transform: uppercase;
+    width: 100%;
+    background-color: var(--primary-color);
+    color: #fff;
+    border-radius: 4px;
+    margin: 4px;
+    &.register {
+      background-color: var(--border-color);
+      color: #000;
+    }
+    &:hover {
+      opacity: 0.7 !important;
+    }
+  }
+  &__form {
+    &__container {
+      padding: 16px 24px;
+    }
+    &__register {
+      margin-top: 10px !important;
+      padding-top: 10px !important;
+      border-top: 1px solid var(--border-color) !important;
+      font-size: 16px !important;
+    }
+    &__title {
+      color: var(--title-color);
+      padding: 16px 24px;
+      font-weight: 600 !important;
+      text-transform: uppercase;
+      border-bottom: 1px solid var(--border-color);
+    }
+    &__item {
+      border-radius: 4px;
+      font-weight: 500;
+      padding: 7px 10px;
+      font-size: 16px;
+    }
+    &__submit {
+      width: 100%;
+      font-weight: 600;
+      text-transform: uppercase;
+      padding: 24px 16px;
+      border-radius: 4px;
+      background-color: var(--primary-color);
+      font-size: 16px;
+      &:hover {
+        opacity: 0.8;
+        background-color: var(--primary-color) !important;
+      }
+    }
+  }
+}
+
+.ant-modal {
+  display: flex !important;
+  justify-content: center !important;
+}
+
+.ant-tabs-nav-wrap {
+  justify-content: center;
+  padding: 0 24px;
+}

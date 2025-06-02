@@ -1,0 +1,49 @@
+.header-admin {
+  z-index: 1;
+  position: fixed;
+  left: 0;
+  right: 0;
+  padding: 0;
+  padding-left: 200px;
+  background-color: #ccc;
+  &__container {
+    max-height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+  }
+  &__left {
+    &__collapse {
+      cursor: pointer;
+      font-size: 20px;
+    }
+  }
+}
+
+.container-content {
+  padding-top: 100px;
+}
+
+.content {
+  border-radius: 10px;
+  padding: 10px;
+  // box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.ant-layout {
+  background-color: #fff;
+}
+
+.sider {
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  bottom: 0;
+}
+
+.footer {
+  position: relative;
+  left: 0;
+  right: 0;
+}

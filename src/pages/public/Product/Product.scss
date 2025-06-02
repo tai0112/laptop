@@ -1,0 +1,108 @@
+.product {
+  &-detail {
+    &__button {
+      display: flex;
+      height: 59px;
+      padding: 10px 0;
+      flex-direction: column;
+      width: 100%;
+      &:hover {
+        color: #fff !important;
+        background-color: var(--primary-color) !important;
+        opacity: 0.8;
+      }
+    }
+    &__price {
+      &-discount {
+        font-weight: 600;
+        font-size: 32px;
+        color: var(--primary-color);
+      }
+      &-init {
+        margin: 0 12px;
+        font-size: 18px;
+        color: var(--title-color);
+        text-decoration: line-through;
+      }
+    }
+    &__container {
+      &-review {
+        margin-bottom: 16px;
+      }
+      &-name {
+        margin-bottom: 10px;
+        font-size: 20px;
+        font-weight: 550;
+      }
+      &-img {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 306px;
+        height: 306px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      &-price {
+        display: flex;
+        align-items: center;
+        margin: 16px 0;
+      }
+      &-gift {
+        margin: 16px 0;
+        border: 1px solid var(--primary-color);
+        border-radius: 4px;
+        &__header {
+          border-radius: 4px;
+          padding: 12px 20px;
+          background-color: #ffd9d9;
+          display: flex;
+          align-items: center;
+          font-size: 18px;
+          font-weight: 600;
+          color: var(--primary-color);
+        }
+        &__content {
+          font-weight: 500;
+          padding: 12px 20px;
+        }
+      }
+    }
+    &__image {
+      img {
+        transform: scale(1.1);
+        will-change: transform;
+        image-rendering: auto;
+      }
+      &-list {
+        img {
+          width: 48px;
+          height: 48px;
+        }
+      }
+    }
+    &__warranty {
+      margin-top: 16px;
+      &-item {
+        font-size: 14px;
+        margin-bottom: 16px;
+      }
+    }
+    &__description {
+      &-title {
+        padding: 16px 0;
+      }
+    }
+  }
+  &-table {
+    &__title {
+      font-size: 16px;
+      color: #428bca;
+    }
+  }
+}
+
+.swiper-slide-active {
+  text-align: center;
+}

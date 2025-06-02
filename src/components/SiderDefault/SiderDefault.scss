@@ -1,0 +1,32 @@
+.sider-default {
+  max-width: 100%;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  &__list {
+    &__item {
+      position: relative;
+      font-weight: 550;
+      cursor: pointer;
+      color: var(--text-color);
+      display: flex;
+      justify-content: space-between;
+      padding: 12px 4px;
+      &:hover {
+        color: #fff;
+        background-color: rgb(234, 28, 4);
+        &::before {
+          z-index: 10000;
+          content: "";
+          position: absolute;
+          right: -49px;
+          top: 0;
+          border-top: 18px solid transparent;
+          border-right: 14px solid transparent;
+          border-bottom: 19px solid transparent;
+          border-left: 16px solid rgb(234, 28, 4);
+          height: 7%;
+          width: 19px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+.product-image {
+  &-container {
+    min-width: 800px !important;
+  }
+  &__adjust {
+    text-align: center;
+    text-decoration: underline;
+  }
+  &__image {
+    width: 200px;
+    height: 200px;
+    position: relative;
+  }
+
+  &__delete {
+    position: absolute;
+    top: -14px;
+    font-size: 20px;
+    color: #000;
+    right: 0;
+    border-radius: 50%;
+  }
+}
+
+.ant-modal-content {
+  padding: 20px !important;
+}

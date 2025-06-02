@@ -1,0 +1,45 @@
+.menuSiderAdmin {
+  position: fixed;
+  width: 200px;
+  background-color: #ccc;
+  top: 0;
+  bottom: 0;
+  &__logo {
+    border-right: 1px solid #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 64px;
+    font-size: 24px;
+    font-weight: 500;
+    &__text {
+      margin-left: 4px;
+      text-transform: uppercase;
+    }
+    &__link {
+      &:hover {
+        text-decoration: none;
+        color: #000;
+      }
+      color: #000;
+    }
+  }
+
+  &__menu {
+    font-size: 18px;
+    background-color: #ccc;
+    flex: 0 0 178px !important;
+  }
+}
+
+.ant-layout-sider {
+  overflow: hidden;
+  max-width: 178px;
+  min-width: 178px;
+  width: 178px;
+}
+
+.ant-menu-item {
+  margin: 10px 0;
+}

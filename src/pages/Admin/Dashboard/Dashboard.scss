@@ -1,0 +1,39 @@
+.general {
+  margin-bottom: 40px;
+  margin-top: 24px;
+  &__item {
+    cursor: pointer;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 20px;
+    border: 1px solid #f1f1f1;
+    border-radius: 10px;
+    &:hover {
+      box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    }
+  }
+  &__category {
+    background-color: rgb(13 148 136);
+  }
+
+  &__manufacture {
+    background-color: rgb(251 146 60);
+  }
+
+  &__product {
+    background-color: rgb(59 130 246);
+  }
+
+  &__payment {
+    background-color: rgb(8 145 178);
+  }
+  &__count {
+    font-weight: 550;
+  }
+
+  &__title {
+    text-transform: capitalize;
+    font-weight: 500;
+  }
+}

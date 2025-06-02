@@ -1,0 +1,21 @@
+.category__create {
+  margin: 20px 0;
+  display: flex;
+}
+
+.search {
+  margin-bottom: 10px;
+}
+
+.table-category {
+  &__name {
+    font-weight: 500;
+  }
+}
+
+.category-detail {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}

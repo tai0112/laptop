@@ -1,0 +1,68 @@
+.search {
+  display: flex;
+  margin: 10px 0 20px 0;
+  justify-content: space-between;
+  &__product {
+    width: 200px;
+  }
+  &__select-active {
+    width: 150px !important;
+    margin-right: 10px;
+  }
+  &__infor {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__refresh {
+    margin-right: 20px;
+    font-size: 20px;
+  }
+}
+
+.product-details {
+  &__container {
+    margin-top: 40px;
+  }
+  &__title {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  &__item--detail {
+    margin-top: 4px;
+  }
+}
+
+.icon-config {
+  margin-right: 10px;
+}
+
+.product-image {
+  &__container {
+    text-align: center;
+    display: flex-column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  &__adjust {
+    display: block;
+    margin-top: 2px;
+  }
+}
+
+.ant-modal {
+  width: 800px !important;
+}
+
+.ant-modal-content {
+  font-size: 20px;
+  width: 800px;
+}
+
+.ant-input-number {
+  width: 100%;
+}
